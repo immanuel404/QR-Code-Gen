@@ -95,11 +95,11 @@ function showWinBox() {
 		title: 'QR Code Generated',
 		// modal: true,
 		width: '300px',
-		height: '100px',
-		top: 100,
-		right: 10,
-		bottom: 10,
-		left: 700,
+		height: '80px',
+		top: 50,
+		right: 5,
+		bottom: 5,
+		left: 5,
 		mount: qrImgOutput,
 		onfocus: function () {
 			this.setBackground('lightslategrey')
